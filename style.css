@@ -1,6 +1,18 @@
-body {
-  background-color: grey;
+* {
+  background: #d9d9d9;
 }
-#img-div {
-  background-image: url("https://wi-images.condecdn.net/image/zGYglV6K7bv/crop/2040/f/au1295753.jpg");
+
+.img-div img {
+  padding-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 80%;
+}
+.image {
+  background: white;
+}
+.img-caption {
+  padding-top: 2%;
 }
