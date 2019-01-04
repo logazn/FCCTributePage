@@ -1,18 +1,23 @@
+/* 
+% for widths
+
+rem for font-size
+
+em for padding / margin
+ */
+
 * {
+  text-align: center;
   background: #d9d9d9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.img-div img {
-  padding-top: 5%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
-  height: 80%;
-}
-.image {
+#img-div img {
+  max-height: 50%;
+  max-width: 80%;
   background: white;
 }
-.img-caption {
-  padding-top: 2%;
+
+#img-caption {
+  text-align: center;
 }
