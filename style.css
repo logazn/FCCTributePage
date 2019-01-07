@@ -6,6 +6,17 @@ rem for font-size
 em for padding / margin
  */
 
+.main {
+  display: grid;
+}
+
+h1 {
+  font-size: 4em;
+}
+html {
+  background: white;
+  padding: 2em 1em 2em 1em;
+}
 * {
   text-align: center;
   background: #d9d9d9;
@@ -13,11 +24,28 @@ em for padding / margin
 }
 
 #img-div img {
-  max-height: 50%;
   max-width: 80%;
+
   background: white;
 }
 
 #img-caption {
   text-align: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 10px auto;
+  text-align: left;
+}
+.tribute-link {
+  padding-bottom: 1em;
+}
+/* media queries */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+  img {
+    height: 15em;
+  }
 }
